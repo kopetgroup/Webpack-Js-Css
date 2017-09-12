@@ -38,7 +38,7 @@ module.exports = {
       },
        {
         test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
-        loader: 'file-loader?name=[name].[ext]&outputPath=/assets/fonts/'
+        loader: 'file-loader?name=[name].[ext]&outputPath=/dist/assets/fonts/'
       }, {
         test: /\.(jpe?g|png|gif)$/i,
         loader: 'file-loader?name=/assets/images/[name].[ext]'
